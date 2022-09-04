@@ -1,0 +1,238 @@
+body
+{
+    background-color: #1A1B2B;
+    /* height: 1216px; */
+}
+.wraper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    position: absolute;
+    z-index: 5;
+    margin-left: 470px;
+}
+.card
+{
+    display: flex;
+    margin-top: 7%;
+    width: 1161.83px;
+    height: 639.41px;
+    background-color: #1A1B2B;
+    border-radius: 17.38px;
+    box-shadow:  -28.96px 40.54px 28.96px rgba(0, 0, 0, 45%), inset 0 4.63px 4.63px 1.16px rgba(0, 0, 0, 25%),  inset 0 0 11.58px 0 rgba(101, 101, 101, 25%),  inset 0 0 0 3.48px rgba(70, 70, 70, 25%);
+}
+.card .content
+{
+    width: 424.07px;
+    height: 542.42px;
+    /* background-color: #5b725d; */
+    margin-left: 55.5px;
+    margin-top: 57.92px;
+    color: white;
+}
+.card .content .hamburger
+{
+    position: relative;
+    width: 38.23px;
+    height: 38.23px;
+    transform: rotate(45deg);
+    /* background-color: #002C4B; */
+    left: -5px;
+}
+.card .content .hamburger .line
+{
+    width: 31.13px;
+    height: 6.55px;
+    border-radius: 2.32px;
+    margin-top: 1px;
+    background-color: #17445E;
+}
+.card .content .hamburger .line:nth-child(2)
+{
+    background-color: #115A4F;
+}
+.card .content .hamburger .line:nth-child(1)
+{
+    background-color: #258A2F;
+}
+
+.head
+{
+    display: flex;
+}
+.head .text
+{
+    margin-left: 36px;
+    display: flex;
+}
+.head .text p
+{
+    position: relative;
+    top: -2.5px;
+    font-size: 12.74px;
+    height: 12.74px;
+    
+}
+.head .text .border
+{
+    border-radius: 28px;
+    width: 103.09px;
+    height: 32.43px;
+    
+    text-align: center;
+    border: none;
+}
+.head .text .border:nth-child(2)
+{
+    border: 2.32px solid #0cc715;
+}
+.text-block
+{
+    margin-top: 106px;
+}
+.card .content .text-block p
+{
+    font-size: 16.22px;
+    margin-top: 0px;
+}
+.text-block p:last-child
+{
+    position: relative;
+    top: -25px;
+}
+.card .content .text-block h1
+{
+    font-size: 57.92px;
+    margin-top: 0px;
+}
+.water
+{
+    display: flex;
+    align-items: center;
+    
+}
+.w1
+{
+    display: flex;
+    width: 84.56px;
+    height: 84.56px;
+    border-radius: 50%;
+    border: 2.32px solid #313031;
+    justify-content: center;
+    align-items: center;
+}
+.w2
+{
+    width: 54.44px;
+    height: 54.44px;
+    border-radius: 50%;
+    border: 2.32px solid #464546;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h6
+{
+    font-size: 16.22px;
+    margin-left: 12px;
+}
+.line
+{
+    display: flex;
+    align-items: center;
+}
+.lin
+{
+    margin-left: 9px;
+    width: 235.15px;
+    height: 1px;
+    /* background-color: #0cc715; */
+    display: flex;
+    align-items: center;
+}
+.l1
+{
+    /* position:  */
+    width: 235.15px;
+    height: 1px;
+    background-color: #464546;
+    border-radius: 3px;
+}
+.l2
+{
+    position: absolute;
+    z-index: 4;
+    width: 114.68px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+
+
+
+.circulos
+{
+    position: absolute;
+    border-radius: 17.38px;
+
+    top: 10.5%;
+    overflow: hidden;
+    width: 1161.83px;
+    height: 639.41px;
+}
+.circulos .circle
+{  
+    position: absolute;
+    width: 561.8px;
+    height: 561.8px;
+    left: 551.5px;
+    top: 81.09px;
+    border-radius: 50%;
+
+    background: conic-gradient(from 142.31deg at 50% 50%, #258A2F -156.76deg, #29582F 23deg, #258A2F 203.24deg, #29582F 383deg);
+    filter: blur(347.507px);
+}
+.circulos .circle:nth-child(2)
+{
+    position: absolute;
+    z-index: 2;
+    width: 561.8px;
+    height: 561.8px;
+    left: 551.5px;
+    top: 71.09px;
+    border-radius: 50%;
+
+    background: conic-gradient(from 142.31deg at 50% 50%, #258A2F -156.76deg, #004C81 23deg, #258A2F 203.24deg, #004C81 383deg);
+    filter: blur(0px);
+}
+.circulos .circle:nth-child(3)
+{
+    position: absolute;
+    width: 557.17px;
+    height: 557.17px;
+    left: 530.65px;
+    top: 60.09px;
+    border-radius: 50%;
+
+    background: conic-gradient(from 142.31deg at 50% 50%, rgba(0, 85, 10, 0.47) -127.5deg, #002C4B 35.62deg, rgba(0, 85, 10, 0.47) 232.5deg, #002C4B 395.63deg);    filter: blur(0px);
+
+    border: 1.15836px solid #258A2F;
+}
+.circulos .circle:nth-child(4)
+{
+    position: absolute;
+    width: 163.33px;
+    height: 163.33px;
+    left: 433.23px;
+    top: 580.81px;
+
+    /* ANGULAR VERDE */
+    filter: blur(0px);
+    background: conic-gradient(from 142.31deg at 50% 50%, #258A2F -156.76deg, #29582F 23deg, #258A2F 203.24deg, #29582F 383deg);
+}
