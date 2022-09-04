@@ -15,6 +15,10 @@ img
     z-index: 5;
     margin-left: 470px;
 }
+.card .w2 img
+{
+    margin-left: 0px;
+}
 .card
 {
     display: flex;
